@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import HeaderLink from "./HeaderLink";
 import {CSSTransition} from "react-transition-group";
-import TheSidebar from "./TheSidebar";
+
 
 
 function TheHeader({isSidebarOpen,setIsSidebarOpen}){

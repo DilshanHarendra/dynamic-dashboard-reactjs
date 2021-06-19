@@ -30,9 +30,9 @@ function BaseLayout(props){
 
 
             <TheHeader isSidebarOpen={isSidebarOpen}  setIsSidebarOpen={setIsSidebarOpen}/>
-            <div className="w-full md:pl-60 bg-gray-100">
+            <div className={`w-full ${isSidebarOpen?'md:pl-60':'pl-0'} bg-gray-100 transition duration-400`}>
 
-                <div className="container mx-auto  px-10 pt-8  bg-gray-100 h-screen max-h-screen overflow-y-auto hide-scroll-bar">
+                <div className="container mx-auto  px-10 pt-24  bg-gray-100 h-screen max-h-screen overflow-y-auto hide-scroll-bar">
 
                     {props.children}
                 </div>

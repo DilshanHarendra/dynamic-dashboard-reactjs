@@ -4,8 +4,9 @@ import React from 'react'
 
 function SidebarLink(props){
 
+    const activeClass="bg-gradient-to-r from-primary to-gray-200 "
    return (<>
-            <div  className=" relative px-6 py-3" >
+            <div  className={`${props.index==1&&activeClass} relative px-6 py-3`} >
 
                 <div  className="inline-flex cursor-pointer justify-between items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-200 dark:hover:text-gray-200" >
                     <div className="flex items-center">

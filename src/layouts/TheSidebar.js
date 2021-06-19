@@ -98,7 +98,7 @@ function TheSidebar(props){
 
                     <div className=" mt-4 overflow-y-auto hide-scroll-bar" style={{maxHeight:'28vh'}}>
                         {
-                            mainLinks.map((link,index)=><SidebarLink data={link} key={index} />)
+                            mainLinks.map((link,index)=><SidebarLink data={link} key={index} index={index} />)
                         }
                     </div>
 

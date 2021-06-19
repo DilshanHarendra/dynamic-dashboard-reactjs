@@ -66,7 +66,7 @@ function TheHeader({isSidebarOpen,setIsSidebarOpen}){
            </div>
 
              <div className="hidden md:flex">
-                 {mainLinks.map((link,index)=><HeaderLink data={link} key={index} />)}
+                 {mainLinks.map((link,index)=><HeaderLink data={link} key={index} index={index} />)}
              </div>
           </div>
 

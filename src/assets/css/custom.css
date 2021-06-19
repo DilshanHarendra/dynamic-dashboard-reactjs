@@ -1,0 +1,219 @@
+.sidebar .user:hover .user-mini{
+    transform: translateY(13rem);
+
+}
+
+.sidebar .user .user-full{
+    transform: translateY(13rem);
+
+}
+
+
+.sidebar .user:hover .user-full{
+    height: 13rem;
+    transform: translateY(0);
+    padding: 10px;
+
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 400ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+
+#from{
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity)) !important;
+    width: 100%;
+
+}
+#to{
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity)) !important;
+    width: 100%;
+}
+
+#date{
+    width: 100% !important;
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity)) !important;
+}
+.tagify{
+    background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+    border-color: rgba(229, 231, 235, var(--tw-border-opacity)) !important;
+}
+
+.react-datepicker-wrapper{
+    width: 100%;
+}
+
+
+
+
+
+.dropdown-enter {
+    hight: 0;
+}
+
+.dropdown-enter-active {
+    height: 100%;
+    transition: 700ms;
+}
+
+.dropdown-exit {
+    height: 0%;
+}
+
+.dropdown-exit-active {
+    hight: 100%;
+    transition: 400ms;
+}
+
+
+
+
+
+
+.form-enter {
+    width: 0px;
+}
+
+.form-enter-active {
+    width: 25%;
+    transition: width 200ms;
+}
+
+.form-exit {
+    width: 25%;
+}
+
+.form-exit-active {
+    width: 0px;
+    transition: width 200ms;
+}
+
+
+@media (min-width: 768px){
+    .sidebar-right-enter {
+        width: 0px;
+    }
+
+    .sidebar-right-enter-active {
+        width: 25%;
+        transition: width 400ms;
+    }
+
+    .sidebar-right-exit {
+        width: 25%;
+    }
+
+    .sidebar-right-exit-active {
+        width: 0px;
+        transition: width 400ms;
+    }
+
+
+
+
+
+    .sidebar-enter {
+        width: 0px;
+    }
+
+    .sidebar-enter-active {
+        width: 16rem;
+        transition: width 200ms;
+    }
+
+    .sidebar-exit {
+        width: 16rem;
+    }
+
+    .sidebar-exit-active {
+        width: 0px;
+        transition: width 200ms;
+    }
+
+
+
+}
+
+@media (max-width: 768px) { /*small screen */
+
+    .sidebar-right-enter {
+        width: 0px;
+    }
+
+    .sidebar-right-enter-active {
+        width: 100%;
+        transition: width 400ms;
+    }
+
+    .sidebar-right-exit {
+        width: 100%;
+    }
+
+    .sidebar-right-exit-active {
+        width: 0px;
+        transition: width 400ms;
+    }
+
+
+    .sidebar-enter {
+        width: 0px;
+    }
+
+    .sidebar-enter-active {
+        width: 100%;
+        transition: width 200ms;
+    }
+
+    .sidebar-exit {
+        width: 100%;
+    }
+
+    .sidebar-exit-active {
+        width: 0px;
+        transition: width 200ms;
+    }
+}
+
+/* Calendar */
+
+.rbc-calendar .rbc-month-view,
+.rbc-calendar .rbc-time-view{
+    background: #fff !important;
+}
+
+
+.rbc-selected-cell{
+    background-color:  rgba(106, 106, 194, 0.25) !important;
+}
+
+.rbc-today{
+    background-color:  rgba(0,0,250,0.1) !important;
+}
+
+.rbc-toolbar {
+    justify-content: flex-end !important;
+}
+.rbc-toolbar>*{
+    margin-bottom: 1rem !important;
+}
+.rbc-toolbar .rbc-toolbar-label{
+    font-weight: bold !important;
+}
